@@ -28,7 +28,7 @@ class MainActivity : ComponentActivity() {
         locationPermissionRequest.launch(Manifest.permission.ACCESS_FINE_LOCATION)
 
         setContent {
-            val vm: WeatherViewModel = viewModel { WeatherViewModel(WeatherRepository("YOUR_API_KEY")) }
+            val vm: WeatherViewModel = viewModel { WeatherViewModel(WeatherRepository("17d23366dabdd3a2860ce6b5f118a957")) }
             WeatherScreen(vm)
         }
     }

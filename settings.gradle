@@ -1,2 +1,19 @@
 rootProject.name = "WeatherWise"
 include ':app'
+
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+pluginManagement {
+    repositories {
+        google()            // ← required for com.android.tools.build:gradle
+        mavenCentral()      // ← Kotlin plugin lives here too
+        gradlePluginPortal()// ← optional, useful for 3rd‑party plugins
+    }
+}
+
