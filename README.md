@@ -12,3 +12,4 @@ WeatherWise is a simple Android application built with Kotlin and Jetpack Compos
 
 1. Obtain an API key from OpenWeather.
 2. Replace `YOUR_API_KEY` in `MainActivity.kt` with your API key.
+
