@@ -12,3 +12,11 @@ WeatherWise is a simple Android application built with Kotlin and Jetpack Compos
 
 1. Obtain an API key from OpenWeather.
 2. Replace `YOUR_API_KEY` in `MainActivity.kt` with your API key.
+   The project uses the Material Components library for its `Material3` theme, which Gradle will download automatically.
+
+6. Ensure Gradle can locate your Android SDK. Either set the `ANDROID_HOME` environment variable or create a `local.properties` file at the project root with:
+
+   ```properties
+   sdk.dir=/path/to/Android/sdk
+   ```
+
